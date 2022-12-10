@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>en Línea</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">About Us</a>
+            <a href="#">Sign Up</a>
+    <div class="filter">
+        <form action="" method="">
+            <label for="Title, Author, Date"></label>
+            <input type="text" placeholder="Title, Author, Date" id="title" class="input-field">
+
+            <label for="genre"></label>
+            <select name="genre" id="genre" class="input-field">
+                <option value="1">Genre</option>
+                <option value="2">Humor</option>
+                <option value="3">Science Fiction</option>
+                <option value="4">Adventure</option>
+                <option value="5">Romance</option>
+                <option value="6">Horror</option>
+            <input class="btn" id="search" type="submit" value="Search">
+        </form>
+    </div>
+    </nav>
+
+    <table>
+        <thead>
+            <tr class="heading">
+                <th>Book Cover</th>
+                <th>Title</th>
+                <th>Date Published</th>
+                <th>Author</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="covers/image1.jpg" class="cover"></td>
+                <td>To Kill A Mockingbird</td>
+                <td>July 11, 1960</td>
+                <td>Harper Lee</td>
+                <td>
+                    <form action="" method="">
+                        <button class="btn" id="cart">Add to Cart</button><br>
+                        <button class="btn" id="wishlist">Add to Wishlist</button><br>
+                        <button class="btn" id="buy">Buy Now</button><br>
+                    </form>
+                </td>
+            </tr>
+    
+            <tr>
+                <td><img src="covers/image2.jpg" class="cover"></td>
+                <td>The Great Gatsby</td>
+                <td>April 10, 1925</td>
+                <td>F. Scott Fitzgerald</td>
+                <td>
+                    <form action="" method="">
+                    <button class="btn" id="cart">Add to Cart</button><br>
+                    <button class="btn" id="wishlist">Add to Wishlist</button><br>
+                    <button class="btn" id="buy">Buy Now</button><br>
+                    </form>
+                </td>
+                </form>
+            </tr>
+    
+            <tr>
+                <td><img src="covers/image3.jpg" class="cover"></td>
+                <td>Nineteen Eighty-Four</td>
+                <td>June 8, 1949</td>
+                <td>George Orwell</td>
+                <td>
+                    <form action="" method="">
+                    <button class="btn" id="cart">Add to Cart</button><br>
+                    <button class="btn" id="wishlist">Add to Wishlist</button><br>
+                    <button class="btn" id="buy">Buy Now</button><br>
+                    </form>
+                </td>
+            </tr>
+        
+            <tr>
+                <td><img src="covers/image4.jpg" class="cover"></td>
+                <td>Adventures of Huckleberry Finn</td>
+                <td>December 10, 1884</td>
+                <td>Mark Twain</td>
+                <td>
+                    <form action="" method="">
+                    <button class="btn" id="cart">Add to Cart</button><br>
+                    <button class="btn" id="wishlist">Add to Wishlist</button><br>
+                    <button class="btn" id="buy">Buy Now</button><br>
+                    </form>
+                </td>
+                </form>
+            </tr>
+        </tbody>
+        </div>
+    </table>
+
+    <div class="checkout">
+        <a href="checkout.html">Proceed to Check Out</a>
+    </div>
+</body>
+</html>

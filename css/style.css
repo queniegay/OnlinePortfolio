@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500;1,600&display=swap');
+
+/* general */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.icon {
+    font-size: larger;
+    color: #a28a78;
+    padding: 5px;
+}
+/* navbar */
+.navbar {
+    background-color: rgba(239,226,217,255);
+}
+.navbar-brand {
+    font-family: 'Style Script', cursive;
+}
+.nav-item:hover {
+    background-color: rgba(208,193,186,255);
+    border-radius: 10px;
+}
+/* home */
+.home-section {
+    background-color: rgba(208,193,186,255);
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+    padding-top: 180px;
+}
+.title {
+    color: #a28a78;
+}
+.btn {
+    background-color: #a28a78;
+}
+a {
+    color: black !important;
+}
+/* about */
+.img-about {
+    width:200px;
+    height:259px;
+}
+/* skills */
+.skills-section {
+    background-color: rgba(239,226,217,255);
+}
+.skills-icon {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+.skills-icon i {
+    font-size: xx-large;
+}
+/* project */
+.project-section {
+    background-color: rgba(208,193,186,255);
+    background-image: url(../images/bg2.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-project {
+    width: 100%;
+    height: 210px;
+}
+.card {
+    background-color: #a28a78;
+}
+#projects-btn {
+    background-color: #a28a78;
+}
+#projects-btn:hover {
+    background-color:#694428b9;
+}
+/* footer */
+.footer-section {
+    background-color: rgba(208,193,186,255);
+    padding: 5px;
+} 
+/* scrollup */
+.scrollup {
+    position:fixed;
+    right: 20px;
+    bottom: 25px;
+    opacity: .8;
+    padding: 0 .3px;
+    transition: .4s;
+}

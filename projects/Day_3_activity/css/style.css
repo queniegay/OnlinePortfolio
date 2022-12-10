@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+img {
+    background-color: antiquewhite;
+    width: 100%;
+    height: calc(100vh - 30px);
+}
+.navlist {
+    background-color: rgb(161, 114, 52);
+    height: 30px;
+    position: sticky;
+    margin-top: -5px;
+}
+nav a {
+    text-decoration: none;
+    color:azure;
+    padding: 5px;
+}
+.right {
+    float: right;
+}
